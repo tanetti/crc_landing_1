@@ -24,7 +24,7 @@ body {
   overflow: hidden;
 }
 
-.wrapper {
+.wrappe {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
