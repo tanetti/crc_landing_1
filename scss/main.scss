@@ -60,7 +60,114 @@ body {
 
   max-width: 100%;
   height: auto;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 
   object-fit: contain;
+
+  user-select: none;
+
+  @media screen and (min-width: 768px) {
+    padding-bottom: 45px;
+  }
+
+  @media screen and (min-width: 1144px) {
+    padding-bottom: 50px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    padding-bottom: 55px;
+  }
+
+  @media screen and (min-width: 2560px) {
+    padding-bottom: 60px;
+  }
+
+  @media screen and (min-width: 3400px) {
+    padding-bottom: 65px;
+  }
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.links__item {
+  width: 40px;
+  height: 40px;
+
+  @media screen and (min-width: 768px) {
+    width: 50px;
+    height: 50px;
+  }
+
+  @media screen and (min-width: 1144px) {
+    width: 60px;
+    height: 60px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    width: 70px;
+    height: 70px;
+  }
+
+  @media screen and (min-width: 2560px) {
+    width: 80px;
+    height: 80px;
+  }
+
+  @media screen and (min-width: 3400px) {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+.links__link {
+  display: flex;
+  align-items: center;
+
+  text-decoration: none;
+  color: #fff;
+
+  &:hover {
+    color: red;
+  }
+}
+
+.links__icon {
+  @media screen and (min-width: 768px) {
+    width: 50px;
+    height: 50px;
+  }
+
+  @media screen and (min-width: 1144px) {
+    width: 60px;
+    height: 60px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    width: 70px;
+    height: 70px;
+  }
+
+  @media screen and (min-width: 2560px) {
+    width: 80px;
+    height: 80px;
+  }
+
+  @media screen and (min-width: 3400px) {
+    width: 90px;
+    height: 90px;
+  }
+
+  fill: currentColor;
+
+  &--special {
+    stroke: currentColor;
+  }
 }

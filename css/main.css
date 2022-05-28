@@ -85,8 +85,155 @@ body {
   display: block;
   max-width: 100%;
   height: auto;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   -o-object-fit: contain;
      object-fit: contain;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    padding-bottom: 45px;
+  }
+}
+
+@media screen and (min-width: 1144px) {
+  .logo {
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .logo {
+    padding-bottom: 55px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .logo {
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 3400px) {
+  .logo {
+    padding-bottom: 65px;
+  }
+}
+
+.links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.links__item {
+  width: 40px;
+  height: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .links__item {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media screen and (min-width: 1144px) {
+  .links__item {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .links__item {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .links__item {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media screen and (min-width: 3400px) {
+  .links__item {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+.links__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+.links__link:hover {
+  color: red;
+}
+
+.links__icon {
+  fill: currentColor;
+}
+
+@media screen and (min-width: 768px) {
+  .links__icon {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media screen and (min-width: 1144px) {
+  .links__icon {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .links__icon {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .links__icon {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media screen and (min-width: 3400px) {
+  .links__icon {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+.links__icon--special {
+  stroke: currentColor;
 }
 /*# sourceMappingURL=main.css.map */
