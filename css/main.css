@@ -230,8 +230,8 @@ body {
 }
 
 .mirror__icon {
-  -webkit-transform: scale(1, -1) rotateX(-50deg);
-          transform: scale(1, -1) rotateX(-50deg);
+  -webkit-transform: perspective(100px) rotateX(-130deg);
+          transform: perspective(100px) rotateX(-130deg);
   -webkit-transform-origin: center;
           transform-origin: center;
   fill: currentColor;

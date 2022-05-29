@@ -183,7 +183,7 @@ body {
 }
 
 .mirror__icon {
-  transform: scale(1, -1) rotateX(-50deg);
+  transform: perspective(100px) rotateX(-130deg);
   transform-origin: center;
 
   @media screen and (min-width: 960px) {
