@@ -235,11 +235,11 @@ body {
           transform: rotateX(180deg);
   -webkit-transform-origin: center;
           transform-origin: center;
+  -webkit-text-fill-color: transparent;
   background: -webkit-gradient(linear, left top, left bottom, from(#ffffff00), color-stop(30%, #ffffff00), color-stop(50%, #ffffff10), to(#ffffff50));
   background: linear-gradient(to bottom, #ffffff00, #ffffff00 30%, #ffffff10 50%, #ffffff50);
-  background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background-clip: text;
   -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
